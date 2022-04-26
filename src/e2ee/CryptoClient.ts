@@ -18,7 +18,7 @@ import {
     decryptFile as rustDecryptFile,
     encryptFile as rustEncryptFile,
     OlmMachine,
-} from "@turt2live/matrix-sdk-crypto-nodejs";
+} from "@rocket.chat/forked-matrix-sdk-crypto-nodejs";
 import { RustSdkCryptoStorageProvider } from "../storage/RustSdkCryptoStorageProvider";
 import { SdkOlmEngine } from "./SdkOlmEngine";
 import { InternalOlmMachineFactory } from "./InternalOlmMachineFactory";

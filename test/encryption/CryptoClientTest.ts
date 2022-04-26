@@ -10,7 +10,7 @@ import {
 } from "../../src";
 import { createTestClient, TEST_DEVICE_ID } from "../MatrixClientTest";
 import { InternalOlmMachineFactory } from "../../src/e2ee/InternalOlmMachineFactory";
-import { OlmMachine, Signatures } from "@turt2live/matrix-sdk-crypto-nodejs";
+import { OlmMachine, Signatures } from "@rocket.chat/forked-matrix-sdk-crypto-nodejs";
 
 describe('CryptoClient', () => {
     afterEach(() => {

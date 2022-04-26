@@ -273,6 +273,14 @@
   resolved "https://registry.yarnpkg.com/@napi-rs/cli/-/cli-2.4.2.tgz#89b32c7d8776004bc9617915605aea769339cf6f"
   integrity sha512-+yCOuPqernvD8BMphbadF87ElaJ0rjanOZrbnauaEdR07YyoalGw3FTk15HHyflIwQKlYd69gkG5EM4WFkICKw==
 
+"@rocket.chat/forked-matrix-sdk-crypto-nodejs@^0.1.0-beta.12":
+  version "0.1.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@rocket.chat/forked-matrix-sdk-crypto-nodejs/-/forked-matrix-sdk-crypto-nodejs-0.1.0-beta.12.tgz#2f565eecda058b0f294006eaeb10e44fd5700594"
+  integrity sha512-8J/Yc4pDztJLdO5kjyQFeCdHihDhNmXKY7Qnw+tCqDZhzUQD4veWAQ9nedAp0To31PkBWT0Y5UmQsskokAXsdg==
+  dependencies:
+    "@napi-rs/cli" "^2.2.0"
+    shelljs "^0.8.4"
+
 "@selderee/plugin-htmlparser2@^0.6.0":
   version "0.6.0"
   resolved "https://registry.npmjs.org/@selderee/plugin-htmlparser2/-/plugin-htmlparser2-0.6.0.tgz"
@@ -280,14 +288,6 @@
   dependencies:
     domhandler "^4.2.0"
     selderee "^0.6.0"
-
-"@turt2live/matrix-sdk-crypto-nodejs@^0.1.0-beta.10":
-  version "0.1.0-beta.10"
-  resolved "https://registry.yarnpkg.com/@turt2live/matrix-sdk-crypto-nodejs/-/matrix-sdk-crypto-nodejs-0.1.0-beta.10.tgz#9b0a8e1f48badeb37a0b0f8eb0fb6dc9bbb1949a"
-  integrity sha512-y5TA8fD5a7xaIwjZhQ66eT3scDsU47GkcCuQ0vjlXB0shY2cCMB4MF1nY/7c1/DniM+KvDXxrhs2VXphlPLpaA==
-  dependencies:
-    "@napi-rs/cli" "^2.2.0"
-    shelljs "^0.8.4"
 
 "@types/babel-types@*", "@types/babel-types@^7.0.0":
   version "7.0.11"

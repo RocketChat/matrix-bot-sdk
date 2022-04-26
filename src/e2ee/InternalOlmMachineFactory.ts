@@ -1,4 +1,4 @@
-import { OlmEngine, OlmMachine } from "@turt2live/matrix-sdk-crypto-nodejs";
+import { OlmEngine, OlmMachine } from "@rocket.chat/forked-matrix-sdk-crypto-nodejs";
 
 /**
  * @internal

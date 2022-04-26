@@ -7,7 +7,7 @@ import {
     OlmEngine,
     OTKCounts,
     ToDeviceMessages,
-} from "@turt2live/matrix-sdk-crypto-nodejs";
+} from "@rocket.chat/forked-matrix-sdk-crypto-nodejs";
 import { MatrixClient } from "../MatrixClient";
 import { OTKAlgorithm } from "../models/Crypto";
 

@@ -1,6 +1,6 @@
 {
-  "name": "matrix-bot-sdk",
-  "version": "develop",
+  "name": "@rocket.chat/forked-matrix-bot-sdk",
+  "version": "0.6.0-beta.2",
   "description": "TypeScript/JavaScript SDK for Matrix bots and appservices",
   "repository": {
     "type": "git",
@@ -51,7 +51,7 @@
     "tsconfig.json"
   ],
   "dependencies": {
-    "@turt2live/matrix-sdk-crypto-nodejs": "^0.1.0-beta.10",
+    "@rocket.chat/forked-matrix-sdk-crypto-nodejs": "^0.1.0-beta.12",
     "@types/express": "^4.17.13",
     "another-json": "^0.2.0",
     "chalk": "^4",
