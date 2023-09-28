@@ -96,5 +96,5 @@ jobs:
         run: |
           yarn install --ignore-scripts --frozen-lockfile --registry https://registry.npmjs.org --network-timeout 300000
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-          # prepublishOnly runs compiles the ts files
+          # prepublishOnly compiles the ts files
           npm publish --access public
