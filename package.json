@@ -1,6 +1,6 @@
 {
   "name": "@rocket.chat/forked-matrix-bot-sdk",
-  "version": "0.6.0-beta.2",
+  "version": "0.6.0-beta.3",
   "description": "TypeScript/JavaScript SDK for Matrix bots and appservices",
   "repository": {
     "type": "git",
